@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-[300px] whyus flex flex-col mx-auto justify-center  bg-rounded items-center md:items-center bg-main-2 py-16 bg-[url('../public/red-wine-pouring-into-wine-glass.jpg')] md:bg-contain bg-cover bg-no-repeat bg-blend-overlay bg-opacity-60 md:bg-opacity-70">
+      <div className="md:mt-0 mt-[280px] whyus flex flex-col mx-auto justify-center  bg-rounded items-center md:items-center bg-main-2 py-16 bg-[url('../public/red-wine-pouring-into-wine-glass.jpg')] md:bg-contain bg-cover bg-no-repeat bg-blend-overlay bg-opacity-60 md:bg-opacity-70">
         <h3 className="text-6xl text-color font-bold text-center">למה סגל?</h3>
         <p className="tracking-wide mt-3 w-[50%] text-2xl font-[Tinos] text-color text-center font-medium">שבעה דורות עברו מאז החל יענקל צבי הירש סגל לעסוק בייצור משקאות חריפים בשנת 1787 והתמקצע בכך.
           <br />
