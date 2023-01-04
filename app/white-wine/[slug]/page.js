@@ -14,11 +14,11 @@ const page = () => {
             {filterData?.map(wine => {
                 return (
                     <div className="bg-color">
-                        <div className='container mx-auto flex flex-col md:flex-row justify-center bg-color p-5 rounded '>
+                        <div className='container mx-auto flex flex-col justify-center bg-color p-5 rounded '>
                             <Link href="/white-wine"><div>
                                 <h6 className="text-gray-400 font-[Tinos] text-sm underline underline-offset-4 w-full">כל היינות הלבנים <span className="text-xs">⬅</span></h6>
                             </div></Link>
-                            <div className='bg-white grid items-center grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 p-10 shadow-2xl shadow-[#fda90067] w-[95%] h-full'>
+                            <div className='bg-white grid items-center grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 p-10 shadow-2xl shadow-[#fda90067] w-[100%] md:w-[90%] mx-auto h-full'>
 
                                 <div className="left mx-auto ">
                                     <img className="md:max-w-[200px] mx-auto" src={wine.image}></img>
