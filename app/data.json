@@ -50,7 +50,7 @@
             "winnerOfYear": "'20",
             "properties": "לבן עשיר",
             "kind": "שרדונה",
-            "image": "white_shardone_zimra.jpeg"
+            "image": "/white_shardone_zimra.jpeg"
         },
         {
             "id": 6,
@@ -60,7 +60,7 @@
             "winnerOfYear": "'19",
             "properties": "לבן עשיר",
             "kind": "שרדונה",
-            "image": "white_wild_shardone.jpeg"
+            "image": "/white_wild_shardone.jpeg"
         }
     ]
 }

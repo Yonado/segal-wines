@@ -4,6 +4,7 @@ import React from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import data from "../../data.json"
 import Link from 'next/link'
+import Image from 'next/image'
 
 const page = () => {
     const path = usePathname()
@@ -20,7 +21,10 @@ const page = () => {
                             </div></Link>
                             <div className='bg-white grid items-center grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 p-10 shadow-2xl shadow-[#fda90067] md:w-[100%] mx-auto w-[90%] h-full'>
                                 <div className="left mx-auto ">
-                                    <img className="h-128" src={wine.image}></img>
+
+                                    <div className="left mx-auto ">
+                                        <Image width="180" height="180" className="md:max-w-[200px] mx-auto" src={wine.image}></Image>
+                                    </div>
                                 </div>
                                 <div className="right text-center md:text-right flex gap-2 flex-col font-[Tinos]">
                                     <h6 className="text-sm font-[Ktav] text-gray-400 mb-[-20px]">יקבי סגל</h6>
