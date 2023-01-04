@@ -1,0 +1,66 @@
+{
+    "redWine": [
+        {
+            "id": 1,
+            "name": "פינו נואר - אשכולות שלמים",
+            "slug": "pino-nuar-segal",
+            "estPrice": 110,
+            "winnerOfYear": "'18",
+            "properties": "יבש",
+            "kind": "פינו נואר",
+            "image": "/red_pino_nuar.jpeg"
+        },
+        {
+            "id": 2,
+            "slug": "krinian-segal",
+            "name": "קריניאן - אשכולות שלמים",
+            "estPrice": 120,
+            "winnerOfYear": "'18",
+            "properties": "יבש",
+            "kind": "קריניאן",
+            "image": "/red_krinian.jpeg"
+        },
+        {
+            "id": 3,
+            "slug": "wild-souvenion-segal",
+            "name": "קברנה סוביניון - התססה פראית",
+            "estPrice": 60,
+            "winnerOfYear": "'17",
+            "properties": "יבש",
+            "kind": "קברנה סוביניון",
+            "image": "/red_sira.jpeg"
+        }
+    ],
+    "whiteWine": [
+        {
+            "id": 4,
+            "slug": "free-run-gvartz-segal",
+            "name": "גוורצטרמינר Free Run",
+            "estPrice": 60,
+            "winnerOfYear": "'19",
+            "properties": "לבן ארומטי",
+            "kind": "גוורצטרמינר",
+            "image": "/white_gvartz.jpeg"
+        },
+        {
+            "id": 5,
+            "slug": "shardone-zimra-segal",
+            "name": "שרדונה בן זמרה רכסים",
+            "estPrice": 70,
+            "winnerOfYear": "'20",
+            "properties": "לבן עשיר",
+            "kind": "שרדונה",
+            "image": "white_shardone_zimra.jpeg"
+        },
+        {
+            "id": 6,
+            "slug": "wild-shardone-segal",
+            "name": "שרדונה - התססה פראית",
+            "estPrice": 60,
+            "winnerOfYear": "'19",
+            "properties": "לבן עשיר",
+            "kind": "שרדונה",
+            "image": "white_wild_shardone.jpeg"
+        }
+    ]
+}

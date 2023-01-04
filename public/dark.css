@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #722F37;
+    transition: 0.5s;
+}
+
+.bg-color {
+    background-color: #562329;
+    transition: 0.5s
+}
+
+.grid-color {
+    background-color: #2f1317;
+    transition: 0.5s;
+}
+
+.nav-text {
+    color: white;
+    transition: 0.5s;
+}
+
+.text-color {
+    color: white;
+    transition: 0.5s;
+}
+
+.text-black-white {
+    color: white;
+}
+
+.text-gold-black {
+    color: black;
+}
+
+.text-header {
+    color: #722F37;
+    transition: 0.5s;
+}
+
+.bg-main {
+    background-color: #722F37;
+    transition: 0.5s;
+}
+
+.fill-icon {
+    fill: white;
+}
+
+.bg-main-2 {
+    background-color: #722F37;
+    transition: 0.5s;
+}
+
+.bg-nav {
+    background-color: #512126;
+    transition: 0.5s;
+}
+
+.border-color {
+    border-color: white;
+    transition: 0.5s;
+}
+
+.outline-color {
+    outline-color: #722F37;
+    transition: 0.5;
+}

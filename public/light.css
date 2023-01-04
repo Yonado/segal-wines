@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    width: 100%;
+}
+
+
+body {
+    background-color: white;
+    transition: 0.5s;
+
+}
+
+.bg-color {
+    background-color: white;
+    transition: 0.5s;
+
+}
+
+.nav-text {
+    color: black;
+    transition: 0.5s;
+}
+
+.text-color {
+    color: #FDA800;
+    transition: 0.5s;
+}
+
+.text-gold-black {
+    color: #FDA800;
+}
+
+.fill-icon {
+    fill: #FDA800;
+}
+
+.grid-color {
+    background-color: #E9E7E0;
+    transition: 0.5s;
+}
+
+.text-header {
+    color: #FDA800;
+    transition: 0.5s;
+}
+
+.bg-main {
+    background-color: rgba(0, 0, 0, 0.375);
+    transition: 0.5s;
+}
+
+.bg-main-2 {
+    background-color: rgba(255, 255, 255, 0.83);
+    transition: 0.5s;
+}
+
+.text-black-white {
+    color: black;
+    transition: 0.5s;
+}
+
+.bg-nav {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.border-color {
+    border-color: #FDA800;
+    transition: 0.5s;
+}
+
+.outline-color {
+    outline-color: #FDA800;
+    transition: 0.5;
+}
